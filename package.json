@@ -1,8 +1,8 @@
 {
-  "name": "react-npm-publish-demo",
-  "version": "1.0.1",
+  "name": "react-intersectionObserver-lazy-load",
+  "version": "1.0.0",
   "description": "react npm publish demo",
-  "repository": "promise-coding/react-npm-publish-demo",
+  "repository": "promise-coding/react-intersectionObserver-lazy-load",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,9 +16,9 @@
   },
   "keywords": [
     "react",
-    "npm",
-    "publish",
-    "react demo"
+    "lazy load",
+    "intersectionObserver",
+    "lazy component"
   ],
   "author": "daxiong",
   "license": "MIT",
@@ -40,8 +40,8 @@
     "node-sass": "^4.12.0",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.35.2",

@@ -15,7 +15,7 @@ module.exports = {
         path: path.join(__dirname, './lib'),
         filename: 'index.js',
         libraryTarget: 'umd', //发布组件专用
-        library: 'ReactObjectLogger',
+        library: 'ReactInterSectionObserverLazyLoad',
     },
     plugins: [ // 插件
         new CleanWebpackPlugin(),
