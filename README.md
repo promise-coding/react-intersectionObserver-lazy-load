@@ -1,4 +1,4 @@
-![NPM](https://img.shields.io/npm/l/react-npm-publish-demo.svg?style=popout) ![npm](https://img.shields.io/npm/v/react-npm-publish-demo.svg?style=flat-square)
+![NPM](https://img.shields.io/npm/l/react-intersection-observer-lazy-load.svg?style=popout) ![npm](https://img.shields.io/npm/v/react-intersection-observer-lazy-load.svg?style=flat-square)
 
 <div style="text-align:center">
   <img src='./image/logo.png'/>
