@@ -18,7 +18,7 @@ Quoted from [MDN](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionO
 `The IntersectionObserver interface of the Intersection Observer API provides a way to asynchronously observe changes in the intersection of a target element with an ancestor element or with a top-level document's viewport. The ancestor element or viewport is referred to as the root.`  
 
 # Installation  
-`npm install react-intersectionObserver-lazy-load`   
+`npm install react-intersection-observer-lazy-load`   
  
 # Examples  
 [basic demo](https://promise-coding.github.io/react-intersectionObserver-lazy-load/)
