@@ -1,7 +1,7 @@
 {
   "name": "react-intersection-observer-lazy-load",
-  "version": "1.0.0",
-  "description": "react npm publish demo",
+  "version": "1.0.1",
+  "description": "lazy-load component with intersection observer API",
   "repository": "promise-coding/react-intersectionObserver-lazy-load",
   "main": "lib/index.js",
   "scripts": {

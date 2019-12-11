@@ -4,10 +4,15 @@ import LazyLoadComponent from '../../src/index'
 import TestComponent from './TestCompoent';
 
 const App = () => {
+
+    function handleChange(entry, ref) {
+        // console.log('component in view: ', entry, ref);
+    }
+
     return (
         <div style={{position: 'relative',left: '40%'}}>
             {[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16].map((value) => {
-            return <LazyLoadComponent key={value}>
+            return <LazyLoadComponent key={value} onchange={handleChange}>
                 <TestComponent id={value}/>
             </LazyLoadComponent>
         })}

@@ -1,2 +1,7 @@
 # .npmignore
-.idea/
+node_modules
+.idea
+.git
+src
+image
+example/dist

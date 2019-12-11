@@ -22,6 +22,12 @@ export default class LazyLoadComponent extends Component {
         };
     }
 
+    handleChange(entry, ref) {
+        if (this.props.onchange && typeof this.props.onchange === 'function') {
+            this.props.onchange(entry, ref);
+        }
+    }
+
     componentDidMount() {
         const thisCompo = ReactDOM.findDOMNode(this);
         const that = this;
@@ -38,7 +44,10 @@ export default class LazyLoadComponent extends Component {
                     that.forceUpdate();
 
                     // 组件已加载， 解除观察
-                    that.observer.unobserve(entry.target)
+                    that.observer.unobserve(entry.target);
+
+                    // callback
+                    that.handleChange(entry, that);
                 }
             })
         }, this.options);
