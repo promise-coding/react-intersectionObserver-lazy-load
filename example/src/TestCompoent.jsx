@@ -3,8 +3,9 @@ import React, {Component} from 'react';
 export default class TestComponent extends Component {
 
     componentDidMount() {
-        const { id } = this.props;
+        const { id, logCallBack } = this.props;
 
+        logCallBack(`TestComponent #${id} was mounted!, please enjoy it!`);
         console.log(`TestComponent #${id} was mounted!, please enjoy it!`);
     }
 
